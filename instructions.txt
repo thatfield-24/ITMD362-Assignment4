@@ -1,0 +1,59 @@
+In this assignment, you will transform a design into a functioning website using HTML, CSS, and JavaScript.
+
+You may choose one of the following starting points:
+
+Your Monday In-Class Activity webpage
+
+A Figma prototype you designed
+
+A simple real-world website you want to mimic 
+
+Your final website must follow the requirements listed below.
+Project Requirements
+1. HTML Requirements
+Your index.html must include:
+
+At least three main content sections
+
+At least three images
+
+Semantic HTML
+2. CSS Requirements
+Your style.css must include:
+
+External CSS File (no internal or inline styling)
+
+Layout using Flexbox or Grid
+
+Visually match your Figma website
+
+3. JavaScript Requirements
+Your script.js must contain at least 3 different types of interactivity.
+
+4. Submmsion Requirements
+Submit a .zip file that contains:
+
+project-folder/
+ index.html
+ style.css 
+ script.js 
+ README.txt
+Your README.txt must include:
+
+The design you implemented
+Description of your JavaScript interactions
+Any challenges you face
+Grading 
+• HTML & CSS (30 pts)
+Clean structure, at least 3 sections + 3 images, organized layout using Flexbox/Grid.
+
+• JavaScript Interactivity (30 pts)
+At least 3 working interactions. Code is functional and readable.
+
+• Design & Matching (20 pts)
+Layout and style resemble the chosen Figma or website inspiration.
+
+• Code Organization (10 pts)
+Files are well-organized and include brief comments.
+
+• Late penalty (5pts each day)

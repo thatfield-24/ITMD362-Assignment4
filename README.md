@@ -1,2 +1,13 @@
 # ITMD362-Assignment4
-In this assignment, you will transform a design into a functioning website using HTML, CSS, and JavaScript.  You may choose one of the following starting points:  Your Monday In-Class Activity webpage  A Figma prototype you designed  A simple real-world website you want to mimic   Your final website must follow the requirements listed below.  Project Requirements 1. HTML Requirements Your index.html must include:  At least three main content sections  At least three images  Semantic HTML 2. CSS Requirements Your style.css must include:  External CSS File (no internal or inline styling)  Layout using Flexbox or Grid  Visually match your Figma website  3. JavaScript Requirements Your script.js must contain at least 3 different types of interactivity.  4. Submmsion Requirements Submit a .zip file that contains:  project-folder/  index.html  style.css   script.js   README.txt Your README.txt must include:  The design you implemented Description of your JavaScript interactions Any challenges you face
+Your README.txt must include:
+
+The design you implemented
+Description of your JavaScript interactions
+Any challenges you face
+ 
+
+The design I implemented is based off the linked Figma file. The Figma design is actually based off of the original wireframe for a website design I had previously completed.
+https://www.figma.com/design/Pe76PIEDSJujPROCTucR3L/Corky-s-Home-Page-Design?node-id=0-1&t=dJADmFMC4uqCkXBo-1 
+
+The current challenges I have faced is that since I exported the HTML and CSS code directly from Figma the naming conventions have been rough. I am currently treating it like a code review by going through the HTML and CSS files to check for syntax and basic structuring. 
+Another thing has been I am having to almost work backwards and add flexboxs were 
