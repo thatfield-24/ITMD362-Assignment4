@@ -1,8 +1,6 @@
 body {
     margin: 0;
     line-height: normal;
-  	width: 100%;
-  	height: 187.5rem;
   	position: relative;
   	background-color: #fff;
   	overflow-y: auto;
@@ -12,294 +10,85 @@ body {
   	font-family: Inter;
 }
 .footer {
-  	position: absolute;
-  	top: 175rem;
+  	position: relative;
   	background-color: #fff;
   	border-top: 1px solid #d9d9d9;
-  	width: 100%;
-  	height: 15rem;
   	overflow: hidden;
   	display: grid;
   	padding: 2rem 2rem 10rem;
+    height: auto;
   	gap: 2rem;
   	font-size: 1.5rem;
   	color: #002c75;
-}
-.title {
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	min-width: 15rem;
-  	flex-shrink: 0;
-}
-.button-list {
-  	display: flex;
-  	align-items: center;
-  	gap: 1rem;
 }
 .icon {
   	height: 2rem;
   	width: 2rem;
   	position: relative;
 }
-
-.corkys-dogg-house {
+h1, .corkys-dogg-house {
   	position: relative;
   	font-size: 3rem;
-  	letter-spacing: -0.02em;
   	line-height: 120%;
   	flex-shrink: 0;
+    text-align: center;
 }
-.address {
-  	position: relative;
-  	letter-spacing: -0.02em;
+h2, h3 {
+    font-size: 2.5rem;
   	line-height: 120%;
   	font-weight: 600;
-  	flex-shrink: 0;
+  	flex-shrink: 1;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.quote {
+    font-size: 1.5rem;
+    line-height: 120%;
 }
 .form-contact {
-  	position: absolute;
-  	top: 135.438rem;
-  	left: 4.25rem;
+  	position: relative;
   	border-radius: 8px;
   	background-color: #fff;
   	border: 1px solid #d9d9d9;
   	box-sizing: border-box;
-  	width: 81.75rem;
-  	height: 31.5rem;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
-  	padding: 1.5rem;
+  	padding: 2.5rem;
   	gap: 1.5rem;
-  	min-width: 20rem;
   	font-size: 1rem;
 }
-.contact-us {
-  	align-self: stretch;
-  	position: relative;
-  	font-size: 3rem;
-  	letter-spacing: -0.02em;
-  	line-height: 120%;
-  	flex-shrink: 0;
-}
-.input-field {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 0.5rem;
-  	flex-shrink: 0;
-}
-.label {
-  	align-self: stretch;
-  	position: relative;
-  	line-height: 140%;
-  	flex-shrink: 0;
-}
-.description {
-  	width: 15rem;
-  	position: relative;
-  	line-height: 140%;
-  	color: #757575;
-  	display: none;
-  	flex-shrink: 0;
-}
-.input {
-  	align-self: stretch;
-  	border-radius: 8px;
-  	background-color: #fff;
-  	border: 1px solid #d9d9d9;
-  	box-sizing: border-box;
-  	overflow: hidden;
-  	display: flex;
-  	align-items: center;
-  	padding: 0.75rem 1rem;
-  	min-width: 15rem;
-  	flex-shrink: 0;
-  	color: #b3b3b3;
-}
-.value {
-  	flex: 1;
-  	position: relative;
-  	line-height: 100%;
-}
-.error {
-  	position: relative;
-  	line-height: 140%;
-  	display: none;
-  	flex-shrink: 0;
-}
-.textarea-field {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 0.5rem;
-  	flex-shrink: 0;
-  	color: #757575;
-}
-.label4 {
-  	align-self: stretch;
-  	position: relative;
-  	line-height: 140%;
-  	color: #1e1e1e;
-  	flex-shrink: 0;
-}
-.textarea {
-  	align-self: stretch;
-  	border-radius: 8px;
-  	background-color: #fff;
-  	border: 1px solid #d9d9d9;
-  	box-sizing: border-box;
-  	overflow: hidden;
-  	display: flex;
-  	align-items: flex-start;
-  	padding: 0.75rem 1rem;
-  	position: relative;
-  	isolation: isolate;
-  	min-width: 15rem;
-  	min-height: 5rem;
-  	flex-shrink: 0;
-  	color: #b3b3b3;
-}
-.value4 {
-  	flex: 1;
-  	position: relative;
-  	line-height: 140%;
-  	z-index: 0;
-  	flex-shrink: 0;
-}
-.drag-icon {
-  	height: 0.413rem;
-  	width: 0.413rem;
-  	position: absolute;
-  	margin: 0 !important;
-  	right: 0.316rem;
-  	bottom: 0.378rem;
-  	z-index: 1;
-  	flex-shrink: 0;
-}
-.hint {
-  	width: 15rem;
-  	position: relative;
-  	line-height: 140%;
-  	display: none;
-  	flex-shrink: 0;
-}
-.button-group {
-  	align-self: stretch;
-  	display: flex;
-  	align-items: center;
-  	gap: 1rem;
-  	flex-shrink: 0;
-  	color: #f5f5f5;
-}
-.button {
-  	height: 2.5rem;
-  	width: 7rem;
-  	border-radius: 8px;
-  	overflow: hidden;
-  	display: none;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 0.75rem;
-  	box-sizing: border-box;
-}
-.button2 {
-  	flex: 1;
-  	border-radius: 8px;
-  	background-color: #2c2c2c;
-  	border: 1px solid #2c2c2c;
-  	overflow: hidden;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 0.75rem;
-}
-.button3 {
-  	position: relative;
-  	line-height: 100%;
-}
 .menu-gallery {
-  	position: absolute;
-  	top: 46.313rem;
-  	left: 0rem;
-  	width: 90rem;
-  	height: 47rem;
+  	position: relative;
+    height: auto;
   	text-align: center;
-  	color: #c70609;
+  	color: #fff;
+    background-color: #002c75;
 }
-.menu-gallery-child {
-  	position: absolute;
-  	top: 0rem;
-  	left: 0rem;
-  	background-color: #002c75;
-  	width: 90rem;
-  	height: 47rem;
-}
-.explore-our-menu {
-  	position: absolute;
-  	top: 1.563rem;
-  	left: calc(50% - 237px);
-  	letter-spacing: -0.02em;
-  	line-height: 120%;
-}
-.italianbeef{
-  	position: absolute;
-  	top: 6.5rem;
-  	left: 3.188rem;
-  	width: 25.475rem;
-  	height: 34.35rem;
-  	object-fit: cover;
-}
-.corkys-in{
-  	position: absolute;
-  	top: 6.5rem;
-  	left: 32.438rem;
-  	width: 25.775rem;
-  	height: 34.369rem;
-  	object-fit: cover;
-}
-.burger{
-  	position: absolute;
-  	top: 6.5rem;
-  	left: 62rem;
-  	width: 25.775rem;
-  	height: 34.369rem;
+.image{
+  	position: relative;
+  	width: 25rem;
+  	height: 35rem;
   	object-fit: cover;
 }
 .hero-section {
-  	position: absolute;
-  	top: 15.688rem;
-  	left: 0rem;
-  	width: 90rem;
-  	height: 26rem;
+  	position: relative;
+    padding: 10rem;
 }
-.corkys-front-hero {
-  	position: absolute;
-  	top: 0rem;
-  	left: 22.625rem;
-  	width: 44.75rem;
-  	height: 26rem;
+.hero-image {
+  	position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 50rem;
+  	height: 40rem;
   	object-fit: cover;
 }
-.blue-blur {
-  	position: absolute;
-  	top: 18.813rem;
-  	left: 0rem;
-  	filter: blur(1000px);
-  	background-color: #012b75;
-  	width: 90rem;
-  	height: 6.25rem;
-}
 .card-grid-testimonials {
-  	position: absolute;
-  	top: 93.313rem;
-  	left: 0.313rem;
+  	position: relative;
   	background-color: #fff;
-  	width: 89.688rem;
-  	height: 35.938rem;
+  	height: auto;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
@@ -307,25 +96,13 @@ body {
   	box-sizing: border-box;
   	gap: 3rem;
 }
-.text-content-heading {
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 0.5rem;
-  	flex-shrink: 0;
-}
-.read-our-rave {
-  	align-self: stretch;
-  	position: relative;
-  	letter-spacing: -0.02em;
-  	line-height: 120%;
-}
 .subheading {
   	align-self: stretch;
   	position: relative;
   	font-size: 2rem;
   	line-height: 120%;
   	color: #757575;
+    flex-shrink: 1rem;
 }
 .card-grid {
   	align-self: stretch;
@@ -334,7 +111,7 @@ body {
   	flex-wrap: wrap;
   	align-content: flex-start;
   	gap: 3rem;
-  	flex-shrink: 0;
+  	flex-shrink: 1;
   	font-size: 1.5rem;
 }
 .testimonial-card {
@@ -348,19 +125,8 @@ body {
   	align-items: flex-start;
   	padding: 1.5rem;
   	gap: 1.5rem;
-  	min-width: 18.75rem;
-}
-.text-heading {
-  	align-self: stretch;
-  	display: flex;
-  	align-items: flex-start;
-}
-.text-heading2 {
-  	flex: 1;
-  	position: relative;
-  	letter-spacing: -0.02em;
-  	line-height: 120%;
-  	font-weight: 600;
+  	min-width: 15rem;
+    flex-shrink: 1rem;
 }
 .avatar-block {
   	width: 8.688rem;
@@ -379,54 +145,33 @@ body {
   	flex-shrink: 0;
 }
 .shape-icon {
-  	position: absolute;
+  	position: relative;
   	top: calc(50% - 20px);
   	left: calc(50% - 20px);
   	width: 2.5rem;
   	height: 2.5rem;
   	object-fit: cover;
 }
-.info {
+.info, .name {
   	flex: 1;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
   	gap: 0.125rem;
 }
-.title2 {
-  	align-self: stretch;
-  	position: relative;
-  	line-height: 140%;
-  	font-weight: 600;
-}
-.description5 {
-  	align-self: stretch;
-  	position: relative;
-  	line-height: 140%;
-  	color: #b3b3b3;
-}
 .nav-bar {
   	position: absolute;
-  	top: 0rem;
-  	left: 0rem;
   	border-bottom: 1px solid #d9d9d9;
   	box-sizing: border-box;
-  	width: 90rem;
   	overflow: hidden;
   	display: flex;
   	align-items: center;
   	flex-wrap: wrap;
   	align-content: center;
   	padding: 2rem;
-  	gap: 0rem 1.5rem;
+  	gap: 0rem 30rem;
   	color: #000;
 }
-.block {
-  	display: flex;
-  	align-items: center;
-  	gap: 1.5rem;
-}
-
 .nav-items {
   	flex: 1;
   	display: flex;
@@ -434,13 +179,10 @@ body {
   	justify-content: flex-end;
   	flex-wrap: wrap;
   	align-content: flex-start;
-  	gap: 0.5rem;
+  	gap: 2.5rem;
   	font-size: 1.5rem;
   	color: #012b75;
     position: relative;
-  	letter-spacing: -0.02em;
   	line-height: 120%;
   	font-weight: 600;
 }
-
-

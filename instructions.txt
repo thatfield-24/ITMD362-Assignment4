@@ -43,6 +43,7 @@ Your README.txt must include:
 The design you implemented
 Description of your JavaScript interactions
 Any challenges you face
+
 Grading 
 • HTML & CSS (30 pts)
 Clean structure, at least 3 sections + 3 images, organized layout using Flexbox/Grid.
