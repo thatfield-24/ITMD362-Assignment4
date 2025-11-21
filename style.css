@@ -1,8 +1,6 @@
 body {
     margin: 0;
     line-height: normal;
-}
-.website-home-page {
   	width: 100%;
   	height: 187.5rem;
   	position: relative;
@@ -15,25 +13,19 @@ body {
 }
 .footer {
   	position: absolute;
-  	top: 173.063rem;
-  	left: 0rem;
+  	top: 175rem;
   	background-color: #fff;
   	border-top: 1px solid #d9d9d9;
-  	box-sizing: border-box;
-  	width: 90rem;
-  	height: 14.438rem;
+  	width: 100%;
+  	height: 15rem;
   	overflow: hidden;
-  	display: flex;
-  	align-items: flex-start;
-  	flex-wrap: wrap;
-  	align-content: flex-start;
+  	display: grid;
   	padding: 2rem 2rem 10rem;
-  	gap: 1rem;
+  	gap: 2rem;
   	font-size: 1.5rem;
   	color: #002c75;
 }
 .title {
-  	width: 16.375rem;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
@@ -45,24 +37,12 @@ body {
   	align-items: center;
   	gap: 1rem;
 }
-.facebook-icon {
-  	height: 3rem;
-  	width: 3rem;
+.icon {
+  	height: 2rem;
+  	width: 2rem;
   	position: relative;
 }
-.linkedin-icon {
-  	height: 1.5rem;
-  	width: 1.5rem;
-  	position: relative;
-}
-.text-link-list {
-  	width: 16.375rem;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 0.75rem;
-  	flex-shrink: 0;
-}
+
 .corkys-dogg-house {
   	position: relative;
   	font-size: 3rem;
@@ -265,7 +245,7 @@ body {
   	letter-spacing: -0.02em;
   	line-height: 120%;
 }
-.italianbeef-1-icon {
+.italianbeef{
   	position: absolute;
   	top: 6.5rem;
   	left: 3.188rem;
@@ -446,15 +426,7 @@ body {
   	align-items: center;
   	gap: 1.5rem;
 }
-.figma-icon {
-  	height: 2.188rem;
-  	width: 2.5rem;
-}
-.header {
-  	position: relative;
-  	letter-spacing: -0.02em;
-  	line-height: 120%;
-}
+
 .nav-items {
   	flex: 1;
   	display: flex;
@@ -465,55 +437,10 @@ body {
   	gap: 0.5rem;
   	font-size: 1.5rem;
   	color: #012b75;
-}
-.home-link {
-  	width: 6.063rem;
-  	position: relative;
+    position: relative;
   	letter-spacing: -0.02em;
   	line-height: 120%;
   	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	flex-shrink: 0;
 }
-.order-now {
-  	width: 9.25rem;
-  	position: relative;
-  	letter-spacing: -0.02em;
-  	line-height: 120%;
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	flex-shrink: 0;
-}
-.catering {
-  	width: 9rem;
-  	position: relative;
-  	letter-spacing: -0.02em;
-  	line-height: 120%;
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	flex-shrink: 0;
-}
-.careers {
-  	width: 8.313rem;
-  	position: relative;
-  	letter-spacing: -0.02em;
-  	line-height: 120%;
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	flex-shrink: 0;
-}
-.contact {
-  	width: 13rem;
-  	position: relative;
-  	letter-spacing: -0.02em;
-  	line-height: 120%;
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	flex-shrink: 0;
-}
+
 
