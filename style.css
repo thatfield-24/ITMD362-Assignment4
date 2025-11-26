@@ -19,12 +19,44 @@ body {
     height: auto;
   	gap: 2rem;
   	font-size: 1.5rem;
-  	color: #002c75;
 }
 .icon {
   	height: 2rem;
   	width: 2rem;
   	position: relative;
+}
+.icon-large {
+  	height: 4rem;
+  	width: 4rem;
+  	position: relative;
+}
+.order-icon-button {
+	background: none;
+	border: none;
+	padding: 0;
+}
+button {
+	background-color: #fff;
+}
+dialog {
+	width: 45rem;
+}
+.cart-detail{
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.25rem;
+}
+.mid {
+    display: flex;
+    align-items: center;
+	gap: 0.5rem;
+}
+a {
+	text-decoration: none;
+	color: inherit;
 }
 h1, .corkys-dogg-house {
   	position: relative;
@@ -32,6 +64,7 @@ h1, .corkys-dogg-house {
   	line-height: 120%;
   	flex-shrink: 0;
     text-align: center;
+	color: #074cba;
 }
 h2, h3 {
     font-size: 2.5rem;
@@ -42,50 +75,132 @@ h2, h3 {
 h3 {
     font-size: 2rem;
     font-weight: 500;
+	margin: 0.25rem;
+}
+.white-text {
+	color: #fff;
 }
 .quote {
     font-size: 1.5rem;
     line-height: 120%;
 }
-.form-contact {
+/* Start of Slideshow CSS */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  position: relative;
+  top: 50%;
+  width: auto;
+  color: #fff;;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.dot {
+  height: 1rem;
+  width: 1rem;
+  margin: 0 2px;
+  background-color: #9a9a9a;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.required {
+  color: red;
+}
+.active, .dot:hover {
+  background-color: #fff;
+}
+/* End of Slideshow CSS */
+#form-contact, form {
   	position: relative;
-  	border-radius: 8px;
-  	background-color: #fff;
-  	border: 1px solid #d9d9d9;
-  	box-sizing: border-box;
+  	border-top: 1px solid #d9d9d9;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
-  	padding: 2.5rem;
-  	gap: 1.5rem;
-  	font-size: 1rem;
+  	padding: 4rem;
+  	font-size: 2rem;
 }
-.menu-gallery {
+form {
+	border-radius: 8px;
+  	border: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+}
+form, label, input, textarea {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: 2rem;
+}
+
+/* Keep labels inline so label text and the required asterisk sit on one line */
+label {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 2rem;
+}
+input{
+	height: 2rem;
+}
+.submit, .reset{
+	height: 3rem;
+	color: #074cba;
+	background-color: #fff;
+}
+.reset {
+	color: rgba(178, 2, 2, 0.823)
+}
+#menu-gallery {
   	position: relative;
     height: auto;
   	text-align: center;
   	color: #fff;
-    background-color: #002c75;
+    background-color: #074cba;
+}
+#menu-items {
+  	position: relative;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	gap: 3rem;
+  	padding: 4rem;
+  	box-sizing: border-box;
+
 }
 .image{
   	position: relative;
-  	width: 25rem;
-  	height: 35rem;
-  	object-fit: cover;
+  	width: 50rem;
+  	height: 40rem;
+  	object-fit: contain;
 }
-.hero-section {
+#hero-section {
   	position: relative;
     padding: 10rem;
 }
-.hero-image {
+#hero-image {
   	position: relative;
     display: block;
     margin: 0 auto;
-    width: 50rem;
+    width: 60rem;
   	height: 40rem;
-  	object-fit: cover;
+	scale: 1;
+	object-fit: contain;
 }
-.card-grid-testimonials {
+#card-grid-testimonials {
   	position: relative;
   	background-color: #fff;
   	height: auto;
@@ -95,14 +210,6 @@ h3 {
   	padding: 4rem;
   	box-sizing: border-box;
   	gap: 3rem;
-}
-.subheading {
-  	align-self: stretch;
-  	position: relative;
-  	font-size: 2rem;
-  	line-height: 120%;
-  	color: #757575;
-    flex-shrink: 1rem;
 }
 .card-grid {
   	align-self: stretch;
@@ -160,7 +267,7 @@ h3 {
   	gap: 0.125rem;
 }
 .nav-bar {
-  	position: absolute;
+  	position: relative;
   	border-bottom: 1px solid #d9d9d9;
   	box-sizing: border-box;
   	overflow: hidden;
@@ -185,4 +292,41 @@ h3 {
     position: relative;
   	line-height: 120%;
   	font-weight: 600;
+}
+
+@media (max-width: 800px) {
+   	#hero-section {
+		padding: 1rem;
+		margin: 1rem;
+	}
+	#hero-image {
+		width: 10rem;
+		height: auto;
+	}
+	.nav-bar {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+	.nav-items {
+		justify-content: flex-start;
+	}
+}
+@media (max-width: 1200px) {
+   	#hero-section {
+		padding: 1rem;
+		margin: 1rem;
+	}
+	#hero-image {
+		width: 45rem;
+		height: auto;
+	}
+	.nav-bar {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+	.nav-items {
+		justify-content: flex-start;
+	}
 }
